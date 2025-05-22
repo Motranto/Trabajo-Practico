@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    font-family: 'Montserrat', Verdana, Tahoma, sans-serif
+}
+
+header h1, header h2, header h3 {
+    text-align: center;
+    color:white;
+}
+
+header h3 {
+    font-style: italic;
+}
+
+header{
+    border: 10px double #000030;
+    border-radius: 40%;
+    background-image: url("../media/img/salchichas.jpg"); 
+/*    position:fixed;
+    top: 0;
+*/
+}
+
+nav{
+    position: sticky;
+    top: 0;  
+}
+.nav-container{
+    display:flex;
+    flex-direction: row; 
+}
+
+.menu {
+    flex: 1 1 auto;
+    color: aliceblue;
+    background-color: #000030;
+    border-radius: 1.5vw;
+    padding: 2%;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.5vw;
+}
+
+.menu:hover{
+    text-decoration:underline;
+    background-color: #000050;
+}
+
+main{
+    border: 2px dotted green;
+    padding: 5%;
+    background-image: url("../media/img/Fondo\ estampado.jpg"); 
+    background-size: 50%;
+    width:90%;
+}
+
+.texto{
+    font-size: 1.2vw;
+}
+
+.texto-G{
+    font-size: 1.5vw;
+}
+
+.indent{
+    text-indent: 2vw;
+}
+
+.black{
+    color:black
+}

@@ -1,0 +1,70 @@
+.risas{
+    text-decoration: underline;
+    background-color: #000070;
+}
+
+.container-risas{
+    display: grid;
+    grid-gap: 5px;
+    grid-template-areas: 
+        "header header header header"
+        "sidebar main main main"
+        "sidebar photo photo button"
+        "footer footer footer footer";
+}
+
+.item{
+    background-color: blue;
+    text-align: center;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.header{
+    grid-area: header;
+}
+
+.sidebar{
+    grid-area: sidebar;
+}
+
+.main{
+    grid-area: main;
+}
+
+.footer{
+    grid-area: footer;
+}
+
+.photo{
+    grid-area: photo;
+}
+
+#buy-button{
+    grid-area: button;
+    color: white;
+    background-color: aqua;
+    border-radius: 10px;
+    font-weight: bold;
+    padding: 20px;
+    margin: 1px;
+}
+
+
+
+
+.container-iframe{
+    display:flex;
+    flex-direction: row;
+}
+
+.iframe{
+    flex: 1 1 auto;
+    color: aliceblue;
+    background-color: #000030;
+    border-radius: 1.5vw;
+    padding: 2%;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.5vw;
+}

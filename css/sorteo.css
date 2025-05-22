@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Cal+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+h3{
+    color:blue;
+    font-style: italic;
+}
+
+.sorteo{
+    text-decoration: underline;
+    background-color: #000070;
+}
+
+
+main {
+    font-family: 'Roboto', 'Cal Sans';
+}
+
+button{
+    font-family: 'Cal Sans';
+}
+
+.radio{
+    margin-left: 25px;
+    margin-right: 5px;
+}
+
+
+
+

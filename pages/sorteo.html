@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Sorteo</title>
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/sorteo.css">
+</head>
+
+
+<body>
+    <header>
+        <h1>Comisión 25019</h1>
+        <h2>Front End JS</h2>
+        <h3>Conozcamos nuestros Perros y Gatos</h3>
+    </header>
+    <nav>
+        <div class="nav-container">
+            <a href="../index.html" class="menu inicio">Inicio</a>
+            <a href="../pages/perros.html" class="menu perros">Perros</a>
+            <a href="../pages/gatos.html" class="menu gatos">Gatos</a>
+            <a href="../pages/sorteo.html" class="menu sorteo">Sorteo</a>
+            <a href="../pages/risas.html" class="menu risas">Risas (jaja)</a>
+        </div>
+    </nav>
+    <main>
+        <!-- Formulario para participar del sorteo-->
+        <h3>Participación del sorteo</h3>
+        <p class="texto-G">Dejanos tus datos y que incorporarías en la página para participar de un sorteo por una bolsa de alimentos para tu mascota</p>
+        <form action="gracias.html" method="get">
+            <fieldset>
+                <legend class="texto-G">Ingrese sus datos</legend>
+                <label class="texto" for="email">Email:</label>
+                <br>
+                <input class="texto black"size="30" type="email" id="email" name="email" required
+                ><br>
+                <label class="texto" for="nombre">Nombre:</label>
+                <br>
+                <input class="texto black" size="50" type="text" id="nombre" name="nombre" required>
+                <br>
+                <label class="texto" for="apellido">Apellido:</label>
+                <br>
+                <input class="texto black" size="50" type="text" id="apellido" name="apellido" required>
+                <br>
+                <label class="texto" for="comentario">Comentarios:</label>
+                <br>
+                <textarea class="texto black" id="comentario" name="comentario" rows="5" cols="80" placeholder=" Dejanos tus comentarios para mejorar."></textarea>
+                <br>
+                <label class="texto-G" for="valoranos">Valoranos:</label>
+                
+                <input class="radio" type="radio" id="5" name="valoranos" value="5" checked />
+                <label class="texto-G" for="5">5</label>
+                <input class="radio" type="radio" id="4" name="valoranos" value="4" />
+                <label class="texto-G" for="4">4</label>
+                <input class="radio" type="radio" id="3" name="valoranos" value="3" />
+                <label class="texto-G" for="3">3</label>
+                <input class="radio" type="radio" id="2" name="valoranos" value="2" />
+                <label class="texto-G" for="2">2</label>
+                <input class="radio" type="radio" id="1" name="valoranos" value="1" />
+                <label class="texto-G" for="1">1</label>
+                <br>
+                <br>
+                <button class="texto-G" type="submit">Confirmar</button>
+            </fieldset>
+        </form>
+    </main>
+</body>
+</html>
