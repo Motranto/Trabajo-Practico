@@ -17,9 +17,17 @@ header{
     border: 10px double #000030;
     border-radius: 40%;
     background-image: url("../media/img/salchichas.jpg"); 
-/*    position:fixed;
-    top: 0;
-*/
+}
+
+.ref{
+    font-size: 1vw;
+    text-align: end;
+    color:aliceblue;
+    margin-right: 12vw;
+}
+
+.name {
+    padding: 0 1.5vw 0 0  ;
 }
 
 nav{
@@ -45,6 +53,7 @@ nav{
 .menu:hover{
     text-decoration:underline;
     background-color: #000050;
+    cursor:pointer;
 }
 
 main{
@@ -53,14 +62,18 @@ main{
     background-image: url("../media/img/Fondo\ estampado.jpg"); 
     background-size: 50%;
     width:90%;
+    border-radius: 2%;
 }
 
 .texto{
     font-size: 1.2vw;
+    font-weight: 500;
 }
 
 .texto-G{
     font-size: 1.5vw;
+    font-weight: 500;
+
 }
 
 .indent{
@@ -69,4 +82,81 @@ main{
 
 .black{
     color:black
+}
+
+
+/* footer */
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #000030;
+    color: aliceblue;
+    width: 100%;
+    font-size: 24px;
+    text-align: center;
+    border-radius: 10%;
+
+}
+
+.footer-item {
+    flex-grow: 1;
+    align-content: center;
+}
+
+.footer-texto{
+    font-size: 1.3vw;
+    color:aliceblue;
+}
+
+.footer-texto-G{
+    font-size: 2vw;
+    color:aliceblue;
+}
+
+#comentario, #nombre{
+    color:black;
+}
+
+.footer-fieldset{
+    margin: 0 3vw 3vw 3vw;
+    font-size: 1.3vw;
+    border-radius: 10px;
+}
+
+.btn-footer{
+    background-color: #000070;
+    color: aliceblue;
+    padding: 2%;
+    border-radius: 10px;
+}
+
+.btn-footer:hover {
+    color: #000070;
+    background-color: aliceblue;
+    cursor: pointer;
+}
+
+@media only screen and (max-width:500px) {
+    .texto {
+    font-size:5px;
+    }
+
+    .texto-G {
+        font-size: 8px;
+    }
+
+    .ref{
+        font-size: 5px;
+        margin-right: 60px;
+    }
+
+    .footer-texto {
+        font-size:7px;
+        }
+
+    .footer-texto-G {
+        font-size: 10px;
+    }
+
 }

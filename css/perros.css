@@ -1,4 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Cal+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+main {
+    font-family: 'Roboto', 'Cal Sans';
+}
+
 .perros{
     text-decoration: underline;
     background-color: #000070;
 }
+
+.flex-container-perros {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5px;
+}
+
+.item {
+    border: 2px solid black;
+    border-radius: 10px;
+    text-align: center;
+}
+
+/*Card*/
+
+.photo{
+    border-radius: 10px;
+}
+.precio {
+    text-align: center;
+    color:black;
+    font-style:italic;
+    font-weight: bolder;
+}
+
+.oferta {
+    text-align: left;
+    color: green;
+    font-weight: 900;
+    margin-left: 5%;
+}
+
+.descripcion {
+    text-align: left;
+    margin: 0 5% 3% 5%;
+    width:140px;
+}
+
+.btn-comprar{
+    font-family: 'Cal Sans';
+    background-color: #000070;
+    color: aliceblue;
+    padding: 3%;
+    border-radius: 10px;
+}
+
+.btn-comprar:hover {
+    color: #000070;
+    background-color: aliceblue;
+    cursor: pointer;
+}
+
