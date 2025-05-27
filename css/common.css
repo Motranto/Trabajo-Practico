@@ -143,13 +143,13 @@ main{
     box-shadow: 0.3vw 0.3vw 0.3vw rgba(255,255,255,0.6);
 }
 
-@media only screen and (max-width:500px) {
+@media only screen and (max-width:600px) {
     .texto {
     font-size:7px;
     }
 
-    .texto-G .menu{
-        font-size: 12px;
+    .texto-G, .menu {
+        font-size: 11px;
     }
 
     .ref{

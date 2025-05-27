@@ -37,13 +37,13 @@ main {
     accent-color:#000070;
 }
 
-@media only screen and (max-width:500px) {
+@media only screen and (max-width:600px) {
     .radio{
-        margin-left: 10px;
-        margin-right: 2px;
+        margin-left: 12px;
+        margin-right: 3px;
     }
     .title-sorteo{
-        font-size:10px;
+        font-size:13px;
     }
 }
 
