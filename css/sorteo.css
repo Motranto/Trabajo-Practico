@@ -21,7 +21,7 @@ main {
     font-family: 'Cal Sans';
     background-color: #000070;
     color: aliceblue;
-    padding: 1%;
+    padding: 3%;
     border-radius: 10px;
 }
 
@@ -35,13 +35,23 @@ main {
     margin-left: 25px;
     margin-right: 5px;
     accent-color:#000070;
+    width:1.4vw;
+    height:1.4vw;
 }
 
 @media only screen and (max-width:600px) {
     .radio{
         margin-left: 12px;
         margin-right: 3px;
+        width:10px;
+        height:10px;
     }
+
+    #comentario{
+        width:280px;
+        height:60px;
+    }
+
     .title-sorteo{
         font-size:13px;
     }

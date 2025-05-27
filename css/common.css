@@ -145,15 +145,15 @@ main{
 
 @media only screen and (max-width:600px) {
     .texto {
-    font-size:7px;
+    font-size:9px;
     }
 
     .texto-G, .menu {
-        font-size: 11px;
+        font-size: 13px;
     }
 
     .ref{
-        font-size: 7px;
+        font-size: 9px;
         margin-right: 60px;
     }
 
@@ -162,7 +162,7 @@ main{
         }
 
     .footer-texto-G {
-        font-size: 13px;
+        font-size: 14px;
     }
 
 }

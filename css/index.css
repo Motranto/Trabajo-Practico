@@ -30,13 +30,13 @@ li{
 
 
 
-@media only screen and (max-width:500px) {
+@media only screen and (max-width:600px) {
 
     .titulo{
-        font-size: 8px;
+        font-size: 14px;
     }
 
     li{
-        font-size: 6px;
+        font-size: 9px;
     }
 }
