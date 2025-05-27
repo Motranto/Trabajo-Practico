@@ -3,57 +3,7 @@
     background-color: #000070;
 }
 
-.container-risas{
-    display: grid;
-    grid-gap: 5px;
-    grid-template-areas: 
-        "header header header header"
-        "sidebar main main main"
-        "sidebar photo photo button"
-        "footer footer footer footer";
-}
-
-.item{
-    background-color: blue;
-    text-align: center;
-    padding: 20px;
-    border-radius: 5px;
-}
-
-.header{
-    grid-area: header;
-}
-
-.sidebar{
-    grid-area: sidebar;
-}
-
-.main{
-    grid-area: main;
-}
-
-.footer{
-    grid-area: footer;
-}
-
-.photo{
-    grid-area: photo;
-}
-
-#buy-button{
-    grid-area: button;
-    color: white;
-    background-color: aqua;
-    border-radius: 10px;
-    font-weight: bold;
-    padding: 20px;
-    margin: 1px;
-}
-
-
-
-
-.container-iframe{
+.contenedor-iframe{
     display:flex;
     flex-direction: row;
 }
@@ -67,4 +17,9 @@
     text-align: center;
     text-decoration: none;
     font-size: 1.5vw;
+}
+
+summary:hover{
+    color:#0000C0;
+    cursor:pointer;
 }

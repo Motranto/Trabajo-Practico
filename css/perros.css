@@ -21,9 +21,17 @@ main {
     border: 2px solid black;
     border-radius: 10px;
     text-align: center;
+    background-color: white;
 }
 
 /*Card*/
+
+.envio{
+    position:absolute;
+    width:50px;
+    border-radius: 10px;
+    z-index: 1;
+}
 
 .photo{
     border-radius: 10px;

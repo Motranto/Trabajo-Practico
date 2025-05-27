@@ -12,7 +12,10 @@ Es una web de una Veterinaria que posee:
 	Formulario para un Sorteo
 	Una sección de Risas
 
-Resta desarrollar la página de risas,  la idea es subir videos de youtube, tiktok, etc. graciosos,  poner algunos chistes.
+Resta desarrollar la página de risas,  la idea es subir videos de youtube graciosos y poner algunos chistes.
+
+-------------------------
+27/5 se finliza el proyecto para la pre-entrega
 
 
 

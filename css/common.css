@@ -33,6 +33,7 @@ header{
 nav{
     position: sticky;
     top: 0;  
+    z-index: 2;
 }
 .nav-container{
     display:flex;
@@ -42,18 +43,21 @@ nav{
 .menu {
     flex: 1 1 auto;
     color: aliceblue;
-    background-color: #000030;
+    background-color: #009030;
     border-radius: 1.5vw;
     padding: 2%;
     text-align: center;
     text-decoration: none;
     font-size: 1.5vw;
+    background:linear-gradient(to bottom, #0000C0, #000030)
 }
 
 .menu:hover{
     text-decoration:underline;
     background-color: #000050;
     cursor:pointer;
+    background:linear-gradient(to top, #0000C0, #000030)
+
 }
 
 main{
@@ -96,7 +100,7 @@ main{
     font-size: 24px;
     text-align: center;
     border-radius: 10%;
-
+    background:linear-gradient(135deg, #000060, #0000C0, #000030)
 }
 
 .footer-item {
@@ -129,12 +133,14 @@ main{
     color: aliceblue;
     padding: 2%;
     border-radius: 10px;
+    box-shadow: 0.3vw 0.3vw 0.3vw rgba(0,128,255,0.6);
 }
 
 .btn-footer:hover {
     color: #000070;
     background-color: aliceblue;
     cursor: pointer;
+    box-shadow: 0.3vw 0.3vw 0.3vw rgba(255,255,255,0.6);
 }
 
 @media only screen and (max-width:500px) {
