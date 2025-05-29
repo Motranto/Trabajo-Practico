@@ -21,3 +21,4 @@ Resta desarrollar la página de risas,  la idea es subir videos de youtube graci
 Se corrige link del formulario del footer de las páginas secundarias.
 Se hace responsive página de gracias.
 
+Se agregan videos en pagina de Risas

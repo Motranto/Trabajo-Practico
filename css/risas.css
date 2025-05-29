@@ -6,8 +6,8 @@
 .contenedor-iframe{
     display:flex;
     flex-direction: row;
-
     flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 .iframe{
@@ -24,4 +24,8 @@
 summary:hover{
     color:#0000C0;
     cursor:pointer;
+}
+
+video{
+    margin:2%
 }
