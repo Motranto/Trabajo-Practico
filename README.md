@@ -16,6 +16,8 @@ Resta desarrollar la página de risas,  la idea es subir videos de youtube graci
 
 -------------------------
 27/5 se finliza el proyecto para la pre-entrega
-
-
+-------------------------
+29/5 
+Se corrige link del formulario del footer de las páginas secundarias.
+Se hace responsive página de gracias.
 
