@@ -22,7 +22,7 @@ main {
     display: flex;
     flex-direction: row; 
     gap: 0.3%;
-    
+    flex-wrap: nowrap;
 }
 
 .btn-confirma{
@@ -73,5 +73,7 @@ main {
     .title-sorteo{
         font-size:13px;
     }
+    .form-container{
+        flex-wrap: wrap;
+    }
 }
-
