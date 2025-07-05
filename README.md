@@ -22,3 +22,11 @@ Se corrige link del formulario del footer de las páginas secundarias.
 Se hace responsive página de gracias.
 
 Se agregan videos en pagina de Risas
+
+JULIO 2025
+Trabajo práctico "Entrega FINAL"
+
+Se modifica el formulario del sorteo,  
+se cambia la pagina de gracias por un mensaje en la misma pagina html del sorteo
+se agrega boton de limpiar el formulario
+se leen los datos del form, y se muestran en la pagina web según la valoración recibida
