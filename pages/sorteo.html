@@ -28,45 +28,55 @@
         </div>
     </nav>
     <main>
+        
         <!-- Formulario para participar del sorteo-->
         <p class="title-sorteo">Participación del sorteo</p>
         <p class="texto-G">Dejanos tus datos y comentanos que incorporarías en nuestra Web y participa de un sorteo por una bolsa de alimento para tu mascota</p>
-        <form action="gracias.html" method="get">
-            <fieldset>
-                <legend class="texto-G">Ingrese sus datos</legend>
-                <label class="texto" for="email">Email:</label>
-                <br>
-                <input class="texto black"size="30" type="email" id="email" name="email" required
-                ><br>
-                <label class="texto" for="nombre">Nombre:</label>
-                <br>
-                <input class="texto black" size="50" type="text" id="nombre" name="nombre" required>
-                <br>
-                <label class="texto" for="apellido">Apellido:</label>
-                <br>
-                <input class="texto black" size="50" type="text" id="apellido" name="apellido" required>
-                <br>
-                <label class="texto" for="comentario">Comentarios:</label>
-                <br>
-                <textarea class="texto black" id="comentario" name="comentario" rows="5" cols="80" placeholder=" Dejanos tus comentarios para mejorar."></textarea>
-                <br>
-                <label class="texto-G" for="valoranos">Valoranos:</label>
-                
-                <input class="radio" type="radio" id="5" name="valoranos" value="5" checked />
-                <label class="texto-G" for="5">5</label>
-                <input class="radio" type="radio" id="4" name="valoranos" value="4" />
-                <label class="texto-G" for="4">4</label>
-                <input class="radio" type="radio" id="3" name="valoranos" value="3" />
-                <label class="texto-G" for="3">3</label>
-                <input class="radio" type="radio" id="2" name="valoranos" value="2" />
-                <label class="texto-G" for="2">2</label>
-                <input class="radio" type="radio" id="1" name="valoranos" value="1" />
-                <label class="texto-G" for="1">1</label>
-                <br>
-                <br>
-                <button class="texto-G btn-confirma" type="submit">Enviar</button>
-            </fieldset>
-        </form>
+        <div class="form-container">
+            <form id="formularioSorteo">
+            <!--<form action="gracias.html" method="get">-->
+                <fieldset>
+                    <legend class="texto-G">Ingrese sus datos</legend>
+                    <label class="texto" for="email">Email:</label>
+                    <br>
+                    <input class="texto black"size="30" type="email" id="email" name="email" required
+                    ><br>
+                    <label class="texto" for="nombre">Nombre:</label>
+                    <br>
+                    <input class="texto black" size="50" type="text" id="nombre" name="nombre" required>
+                    <br>
+                    <label class="texto" for="apellido">Apellido:</label>
+                    <br>
+                    <input class="texto black" size="50" type="text" id="apellido" name="apellido" required>
+                    <br>
+                    <label class="texto" for="comentario">Comentarios:</label>
+                    <br>
+                    <textarea class="texto black" id="comentario" name="comentario" rows="6" cols="70" placeholder=" Dejanos tus comentarios para mejorar."></textarea>
+                    <br>
+
+                    <div class="valoracion">
+                        <label class="texto-G" for="valoranos">Valoranos:</label>
+                        
+                        <input class="radio" type="radio" id="5" name="valoranos" value="5" checked />
+                        <label class="texto-G" for="5">5</label>
+                        <input class="radio" type="radio" id="4" name="valoranos" value="4" />
+                        <label class="texto-G" for="4">4</label>
+                        <input class="radio" type="radio" id="3" name="valoranos" value="3" />
+                        <label class="texto-G" for="3">3</label>
+                        <input class="radio" type="radio" id="2" name="valoranos" value="2" />
+                        <label class="texto-G" for="2">2</label>
+                        <input class="radio" type="radio" id="1" name="valoranos" value="1" />
+                        <label class="texto-G" for="1">1</label>
+                    </div>
+
+                    <br>
+                    <br>
+                    <button class="texto-G btn-confirma" type="submit" id="btnEnviar">Enviar</button>
+                    <button class="texto-G btn-confirma" type="button" id="btnLimpiar">Limpiar</button>
+                </fieldset>
+            </form>
+            <div id="resultado"></div>
+        </div>
     </main>
 
     <footer>
@@ -105,6 +115,6 @@
             </div>
         </div>
     </footer>
-
+    <script src="../js/sorteo.js"></script>
 </body>
 </html>

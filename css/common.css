@@ -38,6 +38,8 @@ nav{
 .nav-container{
     display:flex;
     flex-direction: row; 
+    gap: 0.3%;
+    flex-wrap: wrap;
 }
 
 .menu {
@@ -57,7 +59,6 @@ nav{
     background-color: #000050;
     cursor:pointer;
     background:linear-gradient(to top, #0000C0, #000030)
-
 }
 
 main{
